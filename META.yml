@@ -1,0 +1,24 @@
+---
+abstract: 'Text::Template views for Catalyst'
+author:
+  - 'Ricardo SIGNES, C<< <rjbs at cpan.org> >>'
+distribution_type: module
+generated_by: 'Module::Install version 0.77'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Catalyst::View::Text::Template
+name: Catalyst-View-Text-Template
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Catalyst::View: 0
+  Scalar::Util: 0
+  Text::Template: 0
+  parent: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.000
