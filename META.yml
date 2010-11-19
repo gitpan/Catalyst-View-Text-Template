@@ -2,8 +2,12 @@
 abstract: 'Text::Template views for Catalyst'
 author:
   - 'Ricardo SIGNES, C<< <rjbs at cpan.org> >>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.77'
+generated_by: 'Module::Install version 1.00'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,10 +19,10 @@ no_index:
     - inc
     - t
 requires:
-  Catalyst::View: 0
+  Catalyst::Runtime: 5.8000
   Scalar::Util: 0
   Text::Template: 0
   parent: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.001
+version: 0.002
