@@ -8,6 +8,7 @@ inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
+lib/Catalyst/Helper/View/Text/Template.pm
 lib/Catalyst/View/Text/Template.pm
 LICENSE
 Makefile.PL
