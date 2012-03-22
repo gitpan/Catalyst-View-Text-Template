@@ -1,0 +1,12 @@
+Changes
+lib/Catalyst/Helper/View/Text/Template.pm
+lib/Catalyst/View/Text/Template.pm
+LICENSE
+Makefile.PL
+MANIFEST			This list of files
+MYMETA.json
+MYMETA.yml
+README
+t/compile.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
