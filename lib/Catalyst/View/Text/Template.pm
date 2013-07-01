@@ -1,11 +1,12 @@
 use strict;
 use warnings;
 package Catalyst::View::Text::Template;
+{
+  $Catalyst::View::Text::Template::VERSION = '0.010';
+}
 # ABSTRACT: Text::Template views for Catalyst
 
 use parent 'Catalyst::View';
-
-our $VERSION = '0.008';
 
 use Scalar::Util ();
 use Text::Template ();
@@ -137,7 +138,7 @@ Catalyst::View::Text::Template - Text::Template views for Catalyst
 
 =head1 VERSION
 
-version 0.009
+version 0.010
 
 =head1 SYNOPSIS
 
