@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Catalyst::View::Text::Template;
 {
-  $Catalyst::View::Text::Template::VERSION = '0.010';
+  $Catalyst::View::Text::Template::VERSION = '0.011';
 }
 # ABSTRACT: Text::Template views for Catalyst
 
@@ -132,13 +132,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Catalyst::View::Text::Template - Text::Template views for Catalyst
 
 =head1 VERSION
 
-version 0.010
+version 0.011
 
 =head1 SYNOPSIS
 

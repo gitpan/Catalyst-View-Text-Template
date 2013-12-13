@@ -1,7 +1,7 @@
 use strict;
 package Catalyst::Helper::View::Text::Template;
 {
-  $Catalyst::Helper::View::Text::Template::VERSION = '0.010';
+  $Catalyst::Helper::View::Text::Template::VERSION = '0.011';
 }
 # ABSTRACT: Helper for Text::Template Views
 
@@ -17,13 +17,15 @@ sub mk_compclass {
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Catalyst::Helper::View::Text::Template - Helper for Text::Template Views
 
 =head1 VERSION
 
-version 0.010
+version 0.011
 
 =head1 SYNOPSIS
 

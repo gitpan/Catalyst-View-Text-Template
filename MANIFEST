@@ -8,8 +8,6 @@ README
 dist.ini
 lib/Catalyst/Helper/View/Text/Template.pm
 lib/Catalyst/View/Text/Template.pm
-t/00-compile.t
 t/000-report-versions-tiny.t
-t/compile.t
 xt/release/changes_has_content.t
 xt/release/pod-syntax.t
